@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Météo</title>
+    <link rel="stylesheet" href="styleWeather.css">
+</head>
+<body onload="afficheVille()">
+    <header>
+        <h1>TD n°1 Programmation web - Application météo</h1>
+    
+        <label for="villesChoix">Choisir une ville :</label>
+        <select onchange="afficheVille()" name="villesMeteo" id="villesChoix">
+            <option value="">Sélectionner une ville</option>
+            <option value="Niort">Niort</option>
+            <option value="Rio">Rio de Janeiro</option>
+            <option value="Reykjavik">Reykjavik</option>
+        </select>
+	</header>
+		
+	<br/>	
+	<br/>
+	<br/>
+	<br/>
+	<br/>	
+	<br/>
+	<br/>
+	<br/>
+	<br/>	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+    <div id="weatherInfo"></div>
+
+
+    <footer>
+        <p>Juliette ROSSIGNOL</p>
+    </footer>
+
+    <script src="weather.js"></script>
+</body>
+</html>
