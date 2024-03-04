@@ -27,7 +27,7 @@ function getWeather(city) {
         const temperature = data.main.temp;
         const description = data.weather[0].description;
         const iconCode = data.weather[0].icon;
-        const iconUrl = `http://openweathermap.org/img/wn/${iconCode}.png`;
+        const iconUrl = `http://openweathermap.org/img/w/${iconCode}.png`;
 
         const weatherHtml = `
             <div class="city">
